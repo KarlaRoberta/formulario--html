@@ -10,13 +10,13 @@
 
 <body>
     <h2> Pesquisa de conhecimento sobre HTML </h2>
-    <form action="cadastro" method="get" autocomplete="on">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Dados pessoais </legend>
-            <label>Nome </label> 
-            <input id for="nome" type="nome" required> <br>
-            <label>Idade </label>
-            <input id for="idade" type="number" required> 
+            <label for="inome">Nome </label> 
+            <input name="nome" id="inome" type="text" required> <br>
+            <label for="iidade">Idade </label>
+            <input name="idade" id="iidade" type="number" required > 
         </fieldset>
 
        <fieldset>
@@ -49,6 +49,7 @@
         <input type="checkbox" name="Hy markup language" id="Hy markup language" value="Hyper Text Markup Language">
         <label>Hyper Text Markup Language</label><br>
        </div>
+       <br>
 
        <div>
         <label>2- Que tipo de linguagem é o HTML?</label> <br>
@@ -67,6 +68,7 @@
         <label>e.</label>
         <input type="checkbox" name="LM" id="LM" value="Linguagem de marcação, ou seja, serve para estruturar informações e criar páginas web">
         <label>Linguagem de marcação, ou seja, serve para estruturar informações e criar páginas web</label><br>
+        <br>
 
        </div>
        <div>
@@ -85,9 +87,33 @@
         <label>É utilizado para informar a altura da imagem</label><br>
         <label>e.</label>
         <input type="checkbox" name="tamanho imagem" id="tamanho imagem" value="É utilizado para alterar o tamanho de uma imagem">
-        <label>É utilizado para alterar o tamanho de uma imagem</label><br>
+        <label>É utilizado para alterar o tamanho de uma imagem</label> 
+       </div>
+       <div>
+        <br>
+        
+        <label>4- Qual das alternativas abaixo apresenta as tags básicas para criarmos uma página web?</label> <br>
+        <label>a.</label>
+        <input type ="checkbox" name="descrição de imagem" id="descrição de imagem" value="É utilizado para fornecer uma descrição da imagem">
+        <label> É utilizado para fornecer uma descrição da imagem </label> <br> </label>
+        <p> &lt;html&gt; </p>
+         
+
+        <label>b.</label>
+        <input type="checkbox" name="legenda na imagem" id="legenda na imagem" value="É utilizado para inserir uma legenda na imagem">
+        <label>É utilizado para inserir uma legenda na imagem</label><br>
+        <label>c.</label>
+        <input type="checkbox" name="titulo para a imagem" id="titulo para a imagem" value="É utilizado para dar um título para a imagem">
+        <label>É utilizado para dar um título para a imagem</label><br>
+        <label>d.</label>
+        <input type="checkbox" name="altura da imagem" id="altura da imagem" value="É utilizado para informar a altura da imagem">
+        <label>É utilizado para informar a altura da imagem</label><br>
+        <label>e.</label>
+        <input type="checkbox" name="tamanho imagem" id="tamanho imagem" value="É utilizado para alterar o tamanho de uma imagem">
+        <label>É utilizado para alterar o tamanho de uma imagem</label> <br>
 
        </div>
+
        </div>
        <p>
         <input type="submit" value="Enviar">
