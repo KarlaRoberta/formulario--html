@@ -1,5 +1,7 @@
 # Formulário sobre conhecimento de HTML
 
-## Formulário com algumas questões sobre html
+## Formulário com 5 questões sobre HTML.
 
-https://karlaroberta.github.io/formulario--html/
+Além do espaço para preencher os dados pessoais, o formulário conta com 5 questões básicas sobre HTML. Onde cada pergunta pode ter mais de uma resposta correta.
+
+Link para acessar o formulário: https://karlaroberta.github.io/formulario--html/
